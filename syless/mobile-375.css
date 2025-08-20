@@ -1,0 +1,30 @@
+body{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+    background: var(--Blue-950-mainBG);
+}
+:root{
+    /* ### Primary */
+    --Blue-500: hsl(215, 100% , 70%);
+    --Cyan-400: hsl(178, 100%, 50%);
+
+    /*Neutral */
+    --Blue-950-mainBG: hsl(217, 54%, 11%);
+    --Blue-900-cardGD: hsl(216, 50%, 16%);
+    --Blue-800-line: hsl(215, 32%, 27%);
+    --White: hsl(0, 0%, 100%);
+
+    /*fontsize*/
+    --font-size:18px;
+}
+
+.outfit-300{
+    font-family: fantasy;
+}
+
+.card{
+    background: var(--Blue-900-cardGD);
+    margin: 30px 10px;
+    border-radius: 16px;
+}

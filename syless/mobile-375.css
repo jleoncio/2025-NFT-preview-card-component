@@ -24,8 +24,19 @@ body{
 }
 
 .outfit-300{
-    font-family: fantasy;
-    font-weight: 100;
+    font-family: normal;
+}
+.outfit-400{
+    font-family: "Outfit" , sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+.outfit-600{
+    font-family: "Outfit" , sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
 }
 
 .card{
@@ -46,4 +57,33 @@ body{
 }
 .image{
     margin-bottom: 24px;
+}
+.main-card{
+    margin-bottom: 24px;
+    border-bottom: 1px solid var(--Blue-800-line);
+    padding-bottom: 24px;
+}
+
+.main-card h3{
+    color: var(--White);
+    font-size: var(--font-size);
+    margin: 12px 0 16px 0;
+}
+.main-card p{
+    color: rgb(88 , 199, 139);
+    margin-bottom: 16px;
+}
+
+.main-card div{
+    display:flex ;
+    justify-content: space-between;
+}
+
+.main-card div span:nth-child(1){
+    color: var(--Cyan-400);
+    margin-left: 8px;
+}
+.main-card div span:nth-child(2){
+    color: var(--Cyan-400);
+    margin-left: 8px;
 }
